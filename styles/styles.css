@@ -102,7 +102,13 @@ body {
   line-height: 1;
   text-transform: uppercase; 
   background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(7,190,255,1) 31%, rgba(7,190,255,1) 53%, rgba(7,190,255,1) 78%, rgba(0,212,255,0) 100%);	background-clip: text;
-	-webkit-text-fill-color: transparent;
+  
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;  
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;
 }
 
 /* ============================================================ */
@@ -251,8 +257,12 @@ body {
   font-weight: 800;
   font-style: italic;
   background: linear-gradient(to right, #45D98D 20%, #0E56C2);
-  background-clip: text;
+  background-clip: text;   
+  -webkit-background-clip: text;
+  -moz-background-clip: text;  
   -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;
 }
 
 .user-register .text-container .text-description {
